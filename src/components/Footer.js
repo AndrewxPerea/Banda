@@ -18,7 +18,7 @@ function Footer() {
             <h5>Siete Octavos</h5>
             <p>&copy; 2024 Siete Octavos. Todos los derechos reservados.</p>
             <p>
-              <a href="https://www.facebook.com" style={{ color: 'yellow' }} target="_blank" rel="noopener noreferrer">Facebook</a> | 
+              <a href="https://www.facebook.com/7.8ctavos/" style={{ color: 'yellow' }} target="_blank" rel="noopener noreferrer">Facebook</a> | 
               <a href="https://www.twitter.com" style={{ color: 'yellow' }} target="_blank" rel="noopener noreferrer">Twitter</a> | 
               <a href="https://www.instagram.com" style={{ color: 'yellow' }} target="_blank" rel="noopener noreferrer">Instagram</a>
             </p>
