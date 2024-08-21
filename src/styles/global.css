@@ -37,4 +37,19 @@ body {
     height: 100%;
     border: 0;
   }
-  
+  .sidebar {
+    width: 200px; /* Ancho del sidebar */
+    background-color: #141412;
+    padding: 15px;
+    height: 100vh; /* Altura completa de la ventana */
+  }
+  .sidebar  a {
+    color: yellow;
+  }
+  .sidebar a:hover {
+    color: lightyellow;
+  }
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }

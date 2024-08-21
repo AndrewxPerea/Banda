@@ -23,8 +23,8 @@ function Home() {
             style={{ maxWidth: '15%', marginBottom: '5%' }} // Ajusta el tamaño y margen según tus necesidades
           />
           <h1 className="display-4">Bienvenidos a Siet7/8ctavos</h1>
-          <p className="lead">Música de boleros, salsa y música antillana</p>
-          <Button variant="warning">Explora nuestra música</Button>
+          <p className="lead"  >Música de boleros, salsa y música antillana</p>
+          <Button variant="warning" href ="/music">Explora nuestra música</Button>
         </Col>
       </Row>
     </Container>
