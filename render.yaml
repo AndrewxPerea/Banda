@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: Siet78tavos
+    env: static
+    buildCommand: "npm run build"
+    outputDirectory: "build"
+    redirects:
+      - source: /.*
+        destination: /index.html
+        status: 200
