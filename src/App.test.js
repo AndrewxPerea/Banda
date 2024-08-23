@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom'; // Importa el Router
+import Navbar from './components/Navbar';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders the logo and navigation links', () => {
+  // Envuelve tu componente en un Router
+  const { container } = render(
+    <BrowserRouter>
+      <Navbar />
+    </BrowserRouter>
+  );
+  expect(container).toMatchSnapshot();
 });

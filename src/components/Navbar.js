@@ -6,11 +6,10 @@ function MyNavbar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container>
-        {/* Logo */}
         <Navbar.Brand href="/">
           <img
-            src="./images/logo.png"  // Asegúrate de que la ruta sea correcta
-            height="40"  // Ajusta la altura según sea necesario
+            src="/logo.png" 
+            height="40"  
             className="d-inline-block align-top"
             alt="Siete Octavos Logo"
           />
