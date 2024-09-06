@@ -22,8 +22,8 @@ function App() {
         <Route path="/music" element={<Music />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} /> {/* Añade la nueva ruta */}
-        <Route path='/about/Experience'element={<Experience/> }/>
-        <Route path='/about/Formatos'element={<Formatos/> }/>
+        <Route path='/about/Experience'element={<Experience /> }/>
+        <Route path='/about/Formatos'element={<Formatos /> }/>
       </Routes>
       <Footer />
     </Router>
